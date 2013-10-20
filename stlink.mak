@@ -1,6 +1,6 @@
 STLINK_BRANCH     := master
 STLINK_GIT        := https://github.com/texane/stlink.git
-STLINK_PATCHES    := 
+STLINK_PATCHES    := $(TOOLCHAIN_PATCHDIR)/stlink_aclocalpath.diff
 
 # Clone sources
 $(TOOLCHAIN_SRCDIR)/stlink-$(STLINK_BRANCH):

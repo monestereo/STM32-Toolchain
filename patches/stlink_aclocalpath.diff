@@ -1,0 +1,10 @@
+diff --git a/Makefile.am b/Makefile.am
+index ab3201f..4b1eda2 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -48,3 +48,5 @@ st_info_CPPFLAGS        = -std=gnu99 -Wall -Wextra -O2 -I$(top_srcdir)/src -I$(t
+ 
+ EXTRA_DIST = autogen.sh
+ 
++ACLOCAL_AMFLAGS = -I /usr/local/share/aclocal
++

@@ -1,3 +1,16 @@
+### Instructions for installing STM32F4-Toolchain on Mac OSX
+
+####Install XCode and the command line utilities
+
+####Install Homebrew:
+
+`ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`
+
+####Install dependencies:
+`brew install mpfr gmp libmpc libusb-compat libftdi wget`
+
+### Original README
+
 arm-none-eabi toolchain builder
 
 Binutils 2.22

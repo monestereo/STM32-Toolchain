@@ -1,7 +1,7 @@
 GDB_VERSION    := 7.5.1
 GDB_SOURCE     := $(TOOLCHAIN_SRCDIR)/gdb-$(GDB_VERSION).tar.bz2
 GDB_DOWNLOAD   := http://ftp.gnu.org/gnu/gdb/gdb-$(GDB_VERSION).tar.bz2
-GDB_PATCHES    := 
+GDB_PATCHES    := $(TOOLCHAIN_PATCHDIR)/gdbreturnpatch.diff
 
 # Download
 $(GDB_SOURCE):
